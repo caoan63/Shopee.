@@ -1037,11 +1037,13 @@ i.header__search-select-option-icon {
     font-weight: 600;
     -webkit-tap-highlight-color: transparent;
     margin-bottom: 4px;
+    text-shadow: 0 1px 2px rgba(0 ,0 ,0 , 0.5);
 }
 
 .category__mobile-status {
     color: var(--white-color);
     font-size: 1.2rem;
+    text-shadow: 0 1px 2px rgba(0 ,0 ,0 , 0.5);
 }
 
 .category__mobile-btn {
