@@ -177,7 +177,7 @@
     border-radius: 2px;
     display: none;
     animation: fadeIn linear .3s;
-    box-shadow: 0 0 8px #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     z-index: 3;
 }
 
@@ -439,7 +439,7 @@
 
 .auth-form__socials{
     margin-bottom: 32px;
-    display: flex;
+    display: inline-flex;
     justify-content: space-evenly;
 }
 
@@ -447,7 +447,8 @@
     font-size: 1.4rem;
     color: var(--white-color);
     padding: 12px;
-    line-height: 12px
+    line-height: 12px;
+    width: 110px;
 }
 
 .socials-icon {
@@ -889,13 +890,14 @@
 .header__search-select-list {
     display: none;
     position: absolute;
+    top: calc(100% + 2px);
     background-color: var(--white-color);
     width: 120px;
     padding: 0;
     margin: 0;
     border-radius: 4px;
     overflow: hidden;
-    box-shadow: 0 0 8px #ccc;
+    box-shadow: 0 1px 4px rgba(0 ,0 ,0 , 0.2);
     z-index: 2;
 }
 
@@ -1460,7 +1462,7 @@ i.header__search-select-option-icon {
 .item__product-item-price-current {
     margin-left: auto;
     margin-right: 4px;
-    font-size: 1.4rem;
+    font-size: 1.35rem;
     color: var(--primary-color);
 }
 
