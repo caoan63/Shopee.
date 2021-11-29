@@ -1054,6 +1054,7 @@ i.header__search-select-option-icon {
     padding: 6px 6px;
     border-radius: 2px;
     width: 80px;
+    cursor: pointer;
 }
 
 
